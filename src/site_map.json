@@ -1,0 +1,15 @@
+{
+  "Home": ["Sobre", "Produtos", "Contato"],
+  "Sobre": ["Equipe", "História"],
+  "Produtos": ["Produto A", "Produto B", "Produto C"],
+  "Produto A": ["Carrinho"],
+  "Produto B": ["Carrinho"],
+  "Produto C": ["Carrinho"],
+  "Carrinho": ["Checkout"],
+  "Checkout": ["Carrinho"],
+  "Equipe": ["Home"],
+  "História": ["Home"],
+  "Contato": ["Formulário"],
+  "Formulário": ["Produtos"]
+}
+
