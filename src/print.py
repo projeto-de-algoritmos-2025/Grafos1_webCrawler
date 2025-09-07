@@ -5,7 +5,7 @@ with open("result.json", "r") as f:
     site_map = json.load(f)
 
 # Cria um grafo dirigido
-dot = Graph(comment='Mapa do Site')
+dot = Digraph(comment='Mapa do Site')
 
 # Adiciona nós
 for node in site_map:
