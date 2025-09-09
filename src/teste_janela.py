@@ -10,14 +10,18 @@ import re
 from collections import deque
 import numpy as np
 from collections import deque
+import os
+from dotenv import load_dotenv
 
-canvas = None  # variável global para o canvas
+load_dotenv()
+
+canvas = None  
 
 def rodar_aranha():
     spider = "paginas_controlada"
-    project_dir = "/home/julia/Documentos/PA/Grafos1_webCrawler/scrapy/pages"
+    project_dir = os.getenv("SCRAPY")
     start_url = entrada.get()
-    cmd = ["scrapy", "crawl", spider, "-a", f"start_url={start_url}", "-a","max_depth=2","-a","max_pages_per_layer=10"]
+    cmd = ["scrapy", "crawl", spider, "-a", f"start_url={start_url}", "-a",f"max_depth={os.getenv("PROFUNDIDADE")}","-a",f"max_pages_per_layer={os.getenv("LARGURA")}"]
     subprocess.run(cmd, cwd=project_dir)
     mostrar_grafo_circular()
 
