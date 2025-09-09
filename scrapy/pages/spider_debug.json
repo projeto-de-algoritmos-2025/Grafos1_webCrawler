@@ -1,0 +1,143 @@
+{
+  "grafo": {
+    "https://quotes.toscrape.com/": [
+      "https://quotes.toscrape.com",
+      "https://quotes.toscrape.com/login",
+      "https://quotes.toscrape.com/author/Albert-Einstein",
+      "https://quotes.toscrape.com/tag/change/page/1",
+      "https://quotes.toscrape.com/tag/deep-thoughts/page/1",
+      "https://quotes.toscrape.com/tag/thinking/page/1",
+      "https://quotes.toscrape.com/tag/world/page/1",
+      "https://quotes.toscrape.com/author/J-K-Rowling",
+      "https://quotes.toscrape.com/tag/abilities/page/1",
+      "https://quotes.toscrape.com/tag/choices/page/1"
+    ],
+    "https://quotes.toscrape.com/login": [
+      "https://quotes.toscrape.com"
+    ],
+    "http://quotes.toscrape.com/tag/abilities/page/1/": [
+      "http://quotes.toscrape.com",
+      "http://quotes.toscrape.com/login",
+      "http://quotes.toscrape.com/tag/abilities/page/1",
+      "http://quotes.toscrape.com/author/J-K-Rowling",
+      "http://quotes.toscrape.com/tag/choices/page/1",
+      "http://quotes.toscrape.com/tag/love",
+      "http://quotes.toscrape.com/tag/inspirational",
+      "http://quotes.toscrape.com/tag/life",
+      "http://quotes.toscrape.com/tag/humor",
+      "http://quotes.toscrape.com/tag/books"
+    ],
+    "http://quotes.toscrape.com/tag/deep-thoughts/page/1/": [
+      "http://quotes.toscrape.com",
+      "http://quotes.toscrape.com/login",
+      "http://quotes.toscrape.com/tag/deep-thoughts/page/1",
+      "http://quotes.toscrape.com/author/Albert-Einstein",
+      "http://quotes.toscrape.com/tag/change/page/1",
+      "http://quotes.toscrape.com/tag/thinking/page/1",
+      "http://quotes.toscrape.com/tag/world/page/1",
+      "http://quotes.toscrape.com/tag/love",
+      "http://quotes.toscrape.com/tag/inspirational",
+      "http://quotes.toscrape.com/tag/life"
+    ],
+    "http://quotes.toscrape.com/tag/change/page/1/": [
+      "http://quotes.toscrape.com",
+      "http://quotes.toscrape.com/login",
+      "http://quotes.toscrape.com/tag/change/page/1",
+      "http://quotes.toscrape.com/author/Albert-Einstein",
+      "http://quotes.toscrape.com/tag/deep-thoughts/page/1",
+      "http://quotes.toscrape.com/tag/thinking/page/1",
+      "http://quotes.toscrape.com/tag/world/page/1",
+      "http://quotes.toscrape.com/tag/love",
+      "http://quotes.toscrape.com/tag/inspirational",
+      "http://quotes.toscrape.com/tag/life"
+    ],
+    "http://quotes.toscrape.com/tag/thinking/page/1/": [
+      "http://quotes.toscrape.com",
+      "http://quotes.toscrape.com/login",
+      "http://quotes.toscrape.com/tag/thinking/page/1",
+      "http://quotes.toscrape.com/author/Albert-Einstein",
+      "http://quotes.toscrape.com/tag/change/page/1",
+      "http://quotes.toscrape.com/tag/deep-thoughts/page/1",
+      "http://quotes.toscrape.com/tag/world/page/1",
+      "http://quotes.toscrape.com/author/Terry-Pratchett",
+      "http://quotes.toscrape.com/tag/humor/page/1",
+      "http://quotes.toscrape.com/tag/open-mind/page/1"
+    ],
+    "http://quotes.toscrape.com/author/J-K-Rowling/": [
+      "http://quotes.toscrape.com",
+      "http://quotes.toscrape.com/login"
+    ],
+    "http://quotes.toscrape.com/tag/world/page/1/": [
+      "http://quotes.toscrape.com",
+      "http://quotes.toscrape.com/login",
+      "http://quotes.toscrape.com/tag/world/page/1",
+      "http://quotes.toscrape.com/author/Albert-Einstein",
+      "http://quotes.toscrape.com/tag/change/page/1",
+      "http://quotes.toscrape.com/tag/deep-thoughts/page/1",
+      "http://quotes.toscrape.com/tag/thinking/page/1",
+      "http://quotes.toscrape.com/tag/love",
+      "http://quotes.toscrape.com/tag/inspirational",
+      "http://quotes.toscrape.com/tag/life"
+    ],
+    "http://quotes.toscrape.com/tag/choices/page/1/": [
+      "http://quotes.toscrape.com",
+      "http://quotes.toscrape.com/login",
+      "http://quotes.toscrape.com/tag/choices/page/1",
+      "http://quotes.toscrape.com/author/J-K-Rowling",
+      "http://quotes.toscrape.com/tag/abilities/page/1",
+      "http://quotes.toscrape.com/tag/love",
+      "http://quotes.toscrape.com/tag/inspirational",
+      "http://quotes.toscrape.com/tag/life",
+      "http://quotes.toscrape.com/tag/humor",
+      "http://quotes.toscrape.com/tag/books"
+    ],
+    "http://quotes.toscrape.com/author/Albert-Einstein/": [
+      "http://quotes.toscrape.com",
+      "http://quotes.toscrape.com/login"
+    ]
+  },
+  "estatisticas": {
+    "total_paginas": 10,
+    "total_links": 75,
+    "max_depth": 2,
+    "max_pages_per_layer": 10,
+    "urls_por_nivel": {
+      "0": [
+        "https://quotes.toscrape.com/"
+      ],
+      "1": [
+        "https://quotes.toscrape.com/tag/thinking/page/1",
+        "https://quotes.toscrape.com/login",
+        "https://quotes.toscrape.com",
+        "https://quotes.toscrape.com/tag/change/page/1",
+        "https://quotes.toscrape.com/tag/deep-thoughts/page/1",
+        "https://quotes.toscrape.com/tag/abilities/page/1",
+        "https://quotes.toscrape.com/author/Albert-Einstein",
+        "https://quotes.toscrape.com/tag/choices/page/1",
+        "https://quotes.toscrape.com/tag/world/page/1",
+        "https://quotes.toscrape.com/author/J-K-Rowling"
+      ],
+      "2": [
+        "http://quotes.toscrape.com",
+        "http://quotes.toscrape.com/author/J-K-Rowling",
+        "http://quotes.toscrape.com/tag/humor/page/1",
+        "http://quotes.toscrape.com/tag/love",
+        "http://quotes.toscrape.com/tag/humor",
+        "http://quotes.toscrape.com/login",
+        "http://quotes.toscrape.com/tag/abilities/page/1",
+        "http://quotes.toscrape.com/tag/open-mind/page/1",
+        "http://quotes.toscrape.com/tag/thinking/page/1",
+        "http://quotes.toscrape.com/tag/books",
+        "http://quotes.toscrape.com/author/Terry-Pratchett",
+        "http://quotes.toscrape.com/tag/choices/page/1",
+        "http://quotes.toscrape.com/tag/life",
+        "http://quotes.toscrape.com/tag/change/page/1",
+        "http://quotes.toscrape.com/tag/inspirational",
+        "http://quotes.toscrape.com/author/Albert-Einstein",
+        "http://quotes.toscrape.com/tag/deep-thoughts/page/1",
+        "http://quotes.toscrape.com/tag/world/page/1",
+        "https://quotes.toscrape.com"
+      ]
+    }
+  }
+}

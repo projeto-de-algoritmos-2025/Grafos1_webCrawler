@@ -1,4 +1,8 @@
 CC = python3
+PM = pip
 
 all:
-	$(CC) main.py && $(CC) print.py
+	$(CC) teste_janela.py
+
+install:
+	$(PM) install scrapy python-dotenv tkinter networkx matplotlib requests
