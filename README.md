@@ -19,22 +19,23 @@ Recomendado criar um ambiente virtual:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-pip install scrapy graphviz
+make install
 ```
 
-> É necessário ter o **Graphviz** instalado no sistema:
+> É necessário ter o **Graphviz e o TKinter** instalado no sistema:
 - Linux (Debian/Ubuntu): `sudo apt install graphviz`
 - Fedora: `sudo dnf install graphviz`
 - MacOS: `brew install graphviz`
 - Windows: [Download aqui](https://graphviz.gitlab.io/download/)
+- TKinter: [Segue Documentação](https://tkdocs.com/tutorial/install.html)
 
 
 ### 2. Rodar o Web Crawler
 Exemplo com o site de testes:
 ```bash
-scrapy crawl paginas -a start_url="https://quotes.toscrape.com/page/1/"
+make
 ```
-Isso gera o arquivo `grafo.json` com o mapeamento de links.
+Isso mostra o grafo gerado na tela.
 
 ## Autores
 
@@ -46,3 +47,5 @@ Dupla responsável:
 - [Maurício Ferreira](https://github.com/mauricio_araujoo)  
 
 ## Vídeo de apresentação
+
+- [Video de apresentação](https://www.youtube.com/watch?v=F954oB1af_k)
