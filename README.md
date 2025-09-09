@@ -29,6 +29,11 @@ make install
 - Windows: [Download aqui](https://graphviz.gitlab.io/download/)
 - TKinter: [Segue Documentação](https://tkdocs.com/tutorial/install.html)
 
+#### No arquivo .env colocar o caminho para o scrapy
+```bash
+SCRAPY="caminho/para/scrapy"
+```
+
 
 ### 2. Rodar o Web Crawler
 Exemplo com o site escolhido:
