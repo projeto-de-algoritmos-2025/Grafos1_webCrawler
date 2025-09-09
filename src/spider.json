@@ -1,0 +1,36 @@
+{
+  "https://quotes.toscrape.com/": [
+    "https://quotes.toscrape.com/tag/world/page/1/",
+    "https://quotes.toscrape.com/tag/adulthood/page/1/",
+    "https://quotes.toscrape.com/tag/value/page/1/",
+    "https://quotes.toscrape.com/page/2/",
+    "https://quotes.toscrape.com/tag/thinking/page/1/",
+    "https://quotes.toscrape.com/tag/friends/",
+    "https://quotes.toscrape.com/tag/inspirational/page/1/",
+    "https://quotes.toscrape.com/author/Thomas-A-Edison",
+    "https://quotes.toscrape.com/tag/failure/page/1/",
+    "https://quotes.toscrape.com/tag/humor/page/1/"
+  ],
+  "http://quotes.toscrape.com/author/Thomas-A-Edison/": [
+    "http://quotes.toscrape.com/",
+    "http://quotes.toscrape.com/login"
+  ],
+  "https://quotes.toscrape.com/page/2/": [
+    "https://quotes.toscrape.com/tag/unhappy-marriage/page/1/",
+    "https://quotes.toscrape.com/tag/understand/page/1/",
+    "https://quotes.toscrape.com/tag/activism/page/1/",
+    "https://quotes.toscrape.com/tag/apathy/page/1/",
+    "https://quotes.toscrape.com/tag/contentment/page/1/",
+    "https://quotes.toscrape.com/tag/friends/",
+    "https://quotes.toscrape.com/tag/inspirational/page/1/",
+    "https://quotes.toscrape.com/author/Mark-Twain"
+  ],
+  "https://quotes.toscrape.com/tag/humor/page/1/": [],
+  "https://quotes.toscrape.com/tag/failure/page/1/": [],
+  "https://quotes.toscrape.com/tag/inspirational/page/1/": [],
+  "https://quotes.toscrape.com/tag/friends/": [],
+  "https://quotes.toscrape.com/tag/thinking/page/1/": [],
+  "https://quotes.toscrape.com/tag/value/page/1/": [],
+  "https://quotes.toscrape.com/tag/adulthood/page/1/": [],
+  "https://quotes.toscrape.com/tag/world/page/1/": []
+}

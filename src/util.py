@@ -1,7 +1,8 @@
 import json
 
-with open("site_map.json", "r") as f:
-    site_map = json.load(f)
+def abrir():
+    with open("spider.json", "r") as f:
+         return json.load(f)
 
 def BFS(g, init):
     visit = set()
@@ -67,9 +68,7 @@ def BFS_node_to_other(g, start, end):
     
     return None
 
-resultado = BFS(site_map, "https://quotes.toscrape.com/page/1/")
-
-
-with open("result.json", "w") as f:
-    json.dump(resultado, f, indent=4)
+def escreve(resultado):
+    with open("result.json", "w") as f:
+        json.dump(resultado, f, indent=4)
 
