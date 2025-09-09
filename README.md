@@ -1,7 +1,7 @@
 # Grafos 1 - Web Crawler
 
 Este projeto implementa um **Web Crawler** em Python, com o objetivo de construir um **grafo de páginas acessíveis a partir de uma URL inicial**.  
-A partir do grafo gerado, aplicamos algoritmos clássicos de **busca em largura (BFS)** e **busca em profundidade (DFS)**, permitindo visualizar e analisar a estrutura de links de um site.
+A partir do grafo gerado, aplicamos algoritmos clássicos de **busca em largura (BFS)**, permitindo visualizar e analisar a estrutura de links de um site.
 
 ---
 
@@ -9,7 +9,7 @@ A partir do grafo gerado, aplicamos algoritmos clássicos de **busca em largura 
 - [Python 3.10+](https://www.python.org/)
 - [Scrapy](https://scrapy.org/) (coleta de páginas e links)
 - [Graphviz](https://graphviz.org/) (visualização do grafo)
-- Algoritmos de **BFS**, **DFS** e busca de caminho
+- Algoritmo de **BFS** e de visualização geral do grafo
 
 
 ##  Como Executar
@@ -31,17 +31,15 @@ make install
 
 
 ### 2. Rodar o Web Crawler
-Exemplo com o site de testes:
+Exemplo com o site escolhido:
 ```bash
 make
 ```
-Isso mostra o grafo gerado na tela.
+Após isso, deve-se apenas inserir uma URL no input gerado na tela, clicar em 'Gerar', aguardar a finalização da execução do scrapy, e então escolher visualizar a BFS ou o grafo geral.
 
 ## Autores
 
-Projeto desenvolvido como trabalho da disciplina de **Projeto de Algoritmos**.
-
-Dupla responsável: 
+Dupla responsável: 21
 
 - [Júlia Fortunato](https://github.com/julia-fortunato)  
 - [Maurício Ferreira](https://github.com/mauricio_araujoo)  
