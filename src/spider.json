@@ -1,6 +1,5 @@
 {
-  "https://github.com/": [
-    "https://github.com",
+  "https://github.com": [
     "https://github.com/login",
     "https://github.com/features/copilot",
     "https://github.com/features/spark",
@@ -9,10 +8,26 @@
     "https://github.com/features/actions",
     "https://github.com/features/codespaces",
     "https://github.com/features/issues",
-    "https://github.com/features/code-review"
+    "https://github.com/features/code-review",
+    "https://github.com/features/discussions"
+  ],
+  "https://github.com/login": [
+    "https://github.com/password_reset",
+    "https://github.com/signup?source=login"
+  ],
+  "https://github.com/features/discussions": [
+    "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fdiscussions",
+    "https://github.com/features/copilot",
+    "https://github.com/features/spark",
+    "https://github.com/features/models",
+    "https://github.com/security/advanced-security",
+    "https://github.com/features/actions",
+    "https://github.com/features/codespaces",
+    "https://github.com/features/issues",
+    "https://github.com/features/code-review",
+    "https://github.com/features/code-search"
   ],
   "https://github.com/features/code-review": [
-    "https://github.com",
     "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fcode-review",
     "https://github.com/features/copilot",
     "https://github.com/features/spark",
@@ -21,10 +36,10 @@
     "https://github.com/features/actions",
     "https://github.com/features/codespaces",
     "https://github.com/features/issues",
-    "https://github.com/features/discussions"
+    "https://github.com/features/code-search",
+    "https://github.com/why-github"
   ],
   "https://github.com/features/issues": [
-    "https://github.com",
     "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fissues",
     "https://github.com/features/copilot",
     "https://github.com/features/spark",
@@ -32,62 +47,39 @@
     "https://github.com/security/advanced-security",
     "https://github.com/features/actions",
     "https://github.com/features/codespaces",
-    "https://github.com/features/discussions",
-    "https://github.com/features/code-search"
+    "https://github.com/features/code-search",
+    "https://github.com/why-github",
+    "https://github.com/marketplace"
   ],
   "https://github.com/features/codespaces": [
-    "https://github.com",
     "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fcodespaces",
     "https://github.com/features/copilot",
     "https://github.com/features/spark",
     "https://github.com/features/models",
     "https://github.com/security/advanced-security",
     "https://github.com/features/actions",
-    "https://github.com/features/discussions",
-    "https://github.com/features/code-search",
-    "https://github.com/why-github"
-  ],
-  "https://github.com/features/actions": [
-    "https://github.com",
-    "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Factions",
-    "https://github.com/features/copilot",
-    "https://github.com/features/spark",
-    "https://github.com/features/models",
-    "https://github.com/security/advanced-security",
-    "https://github.com/features/discussions",
-    "https://github.com/features/code-search",
-    "https://github.com/why-github",
-    "https://github.com/marketplace"
-  ],
-  "https://github.com/security/advanced-security": [
-    "https://github.com",
-    "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsecurity%2Fadvanced-security",
-    "https://github.com/features/copilot",
-    "https://github.com/features/spark",
-    "https://github.com/features/models",
-    "https://github.com/features/discussions",
     "https://github.com/features/code-search",
     "https://github.com/why-github",
     "https://github.com/marketplace",
     "https://github.com/features"
   ],
-  "https://github.com/features/models": [
-    "https://github.com",
-    "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fmodels",
+  "https://github.com/features/actions": [
+    "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Factions",
     "https://github.com/features/copilot",
     "https://github.com/features/spark",
-    "https://github.com/features/discussions",
+    "https://github.com/features/models",
+    "https://github.com/security/advanced-security",
     "https://github.com/features/code-search",
     "https://github.com/why-github",
     "https://github.com/marketplace",
     "https://github.com/features",
     "https://github.com/enterprise"
   ],
-  "https://github.com/features/spark": [
-    "https://github.com",
-    "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fspark",
+  "https://github.com/security/advanced-security": [
+    "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsecurity%2Fadvanced-security",
     "https://github.com/features/copilot",
-    "https://github.com/features/discussions",
+    "https://github.com/features/spark",
+    "https://github.com/features/models",
     "https://github.com/features/code-search",
     "https://github.com/why-github",
     "https://github.com/marketplace",
@@ -95,10 +87,10 @@
     "https://github.com/enterprise",
     "https://github.com/team"
   ],
-  "https://github.com/features/copilot": [
-    "https://github.com",
-    "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fcopilot",
-    "https://github.com/features/discussions",
+  "https://github.com/features/models": [
+    "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fmodels",
+    "https://github.com/features/copilot",
+    "https://github.com/features/spark",
     "https://github.com/features/code-search",
     "https://github.com/why-github",
     "https://github.com/marketplace",
@@ -107,9 +99,28 @@
     "https://github.com/team",
     "https://github.com/enterprise/startups"
   ],
-  "https://github.com/login": [
-    "https://github.com",
-    "https://github.com/password_reset",
-    "https://github.com/signup?source=login"
+  "https://github.com/features/spark": [
+    "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fspark",
+    "https://github.com/features/copilot",
+    "https://github.com/features/code-search",
+    "https://github.com/why-github",
+    "https://github.com/marketplace",
+    "https://github.com/features",
+    "https://github.com/enterprise",
+    "https://github.com/team",
+    "https://github.com/enterprise/startups",
+    "https://github.com/solutions/industry/nonprofits"
+  ],
+  "https://github.com/features/copilot": [
+    "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffeatures%2Fcopilot",
+    "https://github.com/features/code-search",
+    "https://github.com/why-github",
+    "https://github.com/marketplace",
+    "https://github.com/features",
+    "https://github.com/enterprise",
+    "https://github.com/team",
+    "https://github.com/enterprise/startups",
+    "https://github.com/solutions/industry/nonprofits",
+    "https://github.com/solutions/use-case/devsecops"
   ]
 }
